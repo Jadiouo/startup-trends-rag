@@ -1,0 +1,43 @@
+# Retrieval evaluation set for eval_retrieval.py
+#
+# Each item is a question plus one or more substrings that must appear in the
+# title, source URL or source path of a retrieved chunk for the question to
+# count as a hit. Expected sources refer to the documents listed in
+# data/raw/manual/_sources.yaml and the crawled VC posts (see data/README.md);
+# adapt this file when you index a different corpus.
+
+- question: "What is Sequoia's '$600B question' about AI infrastructure spending?"
+  expect_any: ["Sequoia", "600B"]
+
+- question: "What does Sam Altman say is the most important quality for being successful?"
+  expect_any: ["Sam Altman", "How to Be Successful"]
+
+- question: "How did nontraditional investors participate in early-stage VC deal value in 2025?"
+  expect_any: ["PitchBook", "pitchbook", "Venture Monitor"]
+
+- question: "Which cities lead the Global Startup Ecosystem Ranking and how is the ranking computed?"
+  expect_any: ["gser", "Startup Genome", "Global Startup Ecosystem"]
+
+- question: "What were the big ideas a16z partners predicted for tech in 2025?"
+  expect_any: ["a16z", "Big Ideas"]
+
+- question: "What are Bessemer's 'Supernova' and 'Shooting Star' AI company archetypes?"
+  expect_any: ["State of AI", "Bessemer"]
+
+- question: "How much did Anthropic's revenue grow relative to OpenAI and what did it cost to train their models?"
+  expect_any: ["anthropic", "Anthropic"]
+
+- question: "How does Tom Tunguz think agents change software pricing?"
+  expect_any: ["tomtunguz", "agent-pricing", "Tunguz"]
+
+- question: "What is Stripe's view on the economy and its own growth in its annual letter?"
+  expect_any: ["Stripe"]
+
+- question: "What advice does the Index Ventures founders handbook give on setting up option pools?"
+  expect_any: ["Index Ventures", "Founders Handbook"]
+
+- question: "What did Fred Wilson expect to happen in 2024?"
+  expect_any: ["avc", "what-will-happen-in-2024", "AVC"]
+
+- question: "What is the median early-stage deal valuation reported by CB Insights for 2024?"
+  expect_any: ["CB-Insights", "CB Insights"]

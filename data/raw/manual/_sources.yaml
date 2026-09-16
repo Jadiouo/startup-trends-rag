@@ -1,0 +1,69 @@
+# Metadata for manually downloaded files in data/raw/manual/
+# data_update.py reads this to populate source_url, author, published_date
+# for PDFs and markdown files that lack frontmatter.
+
+"CB-Insights_Venture-Report-2024.pdf":
+  title: "CB Insights State of Venture Report 2024"
+  source_url: "https://www.cbinsights.com/research/report/venture-trends-2024/"
+  author: "CB Insights"
+  published_date: "2024-01-18"
+
+"CB-Insights_Venture-Report-2025.pdf":
+  title: "CB Insights State of Venture Report 2025"
+  source_url: "https://www.cbinsights.com/research/report/venture-trends-2025/"
+  author: "CB Insights"
+  published_date: "2025-01-16"
+
+"q4-2025-pitchbook-nvca-venture-monitor.pdf":
+  title: "PitchBook-NVCA Venture Monitor Q4 2025"
+  source_url: "https://pitchbook.com/news/reports/q4-2025-pitchbook-nvca-venture-monitor"
+  author: "PitchBook & NVCA"
+  published_date: "2025-01-13"
+
+"gser-2025_8468.pdf":
+  title: "Global Startup Ecosystem Report 2025"
+  source_url: "https://startupgenome.com/reports/global-startup-ecosystem-report-2025"
+  author: "Startup Genome"
+  published_date: "2025-06-01"
+
+"Final_PDF_State_of_AI_2025_slides_Bessemer_Venture_Partners.pdf":
+  title: "Bessemer State of AI 2025"
+  source_url: "https://www.bvp.com/atlas/state-of-the-cloud-2025"
+  author: "Bessemer Venture Partners"
+  published_date: "2025-02-01"
+
+"Bessemer State of the Cloud 2024.md":
+  title: "Bessemer State of the Cloud 2024"
+  source_url: "https://www.bvp.com/atlas/state-of-the-cloud-2024"
+  author: "Bessemer Venture Partners"
+  published_date: "2024-02-01"
+
+"Stripe Annual Letter.md":
+  title: "Stripe Annual Letter 2024"
+  source_url: "https://stripe.com/annual-updates/2024"
+  author: "Patrick Collison & John Collison"
+  published_date: "2024-03-01"
+
+"a16z Big Ideas in Tech for 2025.md":
+  title: "a16z Big Ideas in Tech for 2025"
+  source_url: "https://a16z.com/big-ideas-in-tech-2025/"
+  author: "Andreessen Horowitz"
+  published_date: "2024-12-09"
+
+"Sam Altman How to Be Successful.md":
+  title: "How to Be Successful"
+  source_url: "https://blog.samaltman.com/how-to-be-successful"
+  author: "Sam Altman"
+  published_date: "2019-01-24"
+
+"Sequoia Capital AIs 600B Question.md":
+  title: "AI's $600B Question"
+  source_url: "https://www.sequoiacap.com/article/ais-600b-question/"
+  author: "Sequoia Capital"
+  published_date: "2024-06-20"
+
+"Index Ventures Founders Handbooks.md":
+  title: "Index Ventures Founders Handbooks"
+  source_url: "https://www.indexventures.com/scaling-through-chaos"
+  author: "Index Ventures"
+  published_date: "2024-01-01"

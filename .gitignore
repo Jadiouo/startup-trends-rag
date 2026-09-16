@@ -1,0 +1,24 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+
+# Database volume and logs
+docker/pgdata/
+crawler_errors.log
+
+# Corpus: third-party content, rebuilt from public URLs (see data/README.md)
+data/raw/crawled/*
+data/raw/manual/*
+!data/raw/manual/_sources.yaml
+data/processed/*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

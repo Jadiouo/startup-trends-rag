@@ -1,0 +1,30 @@
+# Python >= 3.10
+
+# Core RAG
+sentence-transformers==3.0.1
+langchain-text-splitters==0.2.2
+litellm==1.40.0
+
+# Vector DB
+psycopg[binary]==3.2.1
+pgvector==0.3.2
+
+# PDF / file parsing
+pypdf==4.3.1
+
+# Crawler (only used by scripts/crawler.py)
+httpx[http2]==0.27.0
+feedparser==6.0.11
+trafilatura==1.12.0
+python-dateutil==2.9.0
+tenacity==8.5.0
+
+# Metadata
+pyyaml==6.0.1
+
+# Utilities
+python-dotenv==1.0.1
+rich==13.7.1
+
+# Dev
+pytest
